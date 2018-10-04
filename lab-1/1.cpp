@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-int i,j;
-cout<<"enter i and j ";
-cin>>i>>j;
-while(i%j!=0)
+float s,j;
+cout<<"enter s and j ";
+cin>>s>>j;
+while(s%j!=0)
 {
-i++;
+s++;
 }
-cout<<"number is "<<i;
+cout<<"number is "<<s;
 return 0;
 }
 
